@@ -1,5 +1,8 @@
 package Article;
 
 public class Tag {
-    String tag;
+    public Tag(String tag) {
+        this.tag = tag;
+    }
+    private String tag;
 }
